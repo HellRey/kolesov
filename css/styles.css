@@ -25,6 +25,8 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 	text-decoration: none;
 	font-size: 24px;
 	line-height: 32px;
+	width: 408px;
+	display:block;
 }
 .header a.logo strong {
 	display: block;
@@ -39,7 +41,9 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 	line-height: 18px;
 }
 .header a.logo img {
-	
+	float: right;
+	padding-top: 8px;
+	text-align: right;
 }
 
 .header .info a {
@@ -58,3 +62,33 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 	line-height: 20px;
 	border-radius: 5px;
 }
+.main-content {
+	float: left;
+	width: 600px;
+}
+.sidebar {
+	float: right;
+	width: 300px;
+	padding-top: 32px;
+}
+	
+.sidebar h2 {
+	color: #fff;
+	background: #023875;
+	fonntn-size: 18px;
+	line-height: 22px;
+	padding: 11px 20px 11px 20px;
+	font-weight: normal
+}
+.sidebar ul {
+	padding: 8px 0px 20px;
+	font-size: 14 px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.sidebar ul a {
+	
+}
+.wrap {
+	padding-bottom: 90px;
+	width: none;
